@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ludo Dice Roller</title>
+</head>
+<body>
+
+<button onclick="rollDice()">Roll Ludo Dice</button>
+
+<script>
+function rollDice() {
+  
+  let diceValue = Math.floor(Math.random() * 6) + 1;
+  
+  
+  document.write("You rolled: " + diceValue);
+}
+</script>
+
+</body>
+</html>
